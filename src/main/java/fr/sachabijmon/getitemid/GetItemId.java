@@ -7,7 +7,6 @@ public class GetItemId extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        saveDefaultConfig();
 
         getCommand("get-id").setExecutor(new GetIdCmd(this));
 

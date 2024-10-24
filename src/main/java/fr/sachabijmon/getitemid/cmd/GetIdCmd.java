@@ -18,8 +18,6 @@ public class GetIdCmd implements CommandExecutor {
             Player player = (Player) sender;
 
             player.sendMessage(String.valueOf(player.getInventory().getItemInMainHand().getType()));
-
-            main.saveConfig();
         }
 
         return false;
