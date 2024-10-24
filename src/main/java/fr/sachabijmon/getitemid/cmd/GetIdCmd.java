@@ -17,7 +17,7 @@ public class GetIdCmd implements CommandExecutor {
         if(sender instanceof Player) {
             Player player = (Player) sender;
 
-            main.getConfig().set("obj",player.getInventory().getItemInMainHand());
+            player.sendMessage(String.valueOf(player.getInventory().getItemInMainHand().getType()));
 
             main.saveConfig();
         }
