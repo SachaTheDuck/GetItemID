@@ -1,0 +1,8 @@
+name: GetItemId
+main: fr.sachabijmon.getitemid.GetItemId
+version: 1.0
+author: Sacha G
+commands:
+  get-id:
+    description: Permet de retourner l'ID de l'item en main.
+    permission: getid.use
